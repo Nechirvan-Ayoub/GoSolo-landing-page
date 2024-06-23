@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>GoSolo</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header-->
+    <section class="hero">
+      <!--navigation-->
+      <div class="navigation">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.svg" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Book</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Help</a>
+                    </li>
+                  </ul>
+                  <button class="search-btn">
+                      <img src="images/search.svg"  class="img-fluid">
+                  </button>
+                </div>
+              </div>
+            </nav>
+      </div>
+      </div>
+      <!--end of navigation-->
+        
+        <img src="images/alive.svg" class="img-alive">
+        <img src="images/foreground.png"  class="img-foreground img-fluid">
+    </section>
+    <!--end of header-->
+    <!--offers-->
+    <section class="offers py-5">
+       <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="container pt-5">
+        <div class="row pt-5">
+         <div class="col-12 col-md-6 c-01">
+           <h2 class="component">
+             The Himalayas
+           </h2>
+           <p class="my-5 component">
+             The Himalayas, or Himalaya, is a mountain range in Asia, separating the plains of the Indian subcontinent from the Tibetan Plateau. The range has some of the planet's highest peaks, including the very highest, Mount Everest. Over 100 peaks exceeding 7,200 m in elevation lie in the Himalayas.
+           </p>
+           <button type="button" class="btn btn-dark">Learn More</button>
+         </div>
+         <div class="col-12 col-md-6">
+           <img src="images/The Himalayas.png" class="img-fluid mx-auto d-block component">
+       </div>
+        </div>
+       </div></div>
+      <div class="swiper-slide"><div class="container pt-5">
+        <div class="row pt-5">
+         <div class="col-12 col-md-6 c-02">
+          <h2 class="component">The Amazon Rainforest</h2>
+<p class="my-5 component">
+  The Amazon Rainforest, located in South America, spans across nine countries, with the majority of the forest within Brazil. It is the largest rainforest in the world and is known for its incredible biodiversity, housing millions of species of plants, insects, birds, and other wildlife. The Amazon River, which runs through the forest, is also one of the longest rivers in the world.
+</p>
+          
+           <button type="button" class="btn btn-dark">Learn More</button>
+         </div>
+         <div class="col-12 col-md-6">
+           <img src="images/amazon.png" class="img-fluid mx-auto d-block component">
+       </div>
+        </div>
+       </div></div>
+      <div class="swiper-slide"><div class="container pt-5">
+        <div class="row pt-5">
+         <div class="col-12 col-md-6 c-03">
+          <h2 class="component">The Grand Canyon</h2>
+          <p class="my-5 component">
+            The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States. It is 277 miles long, up to 18 miles wide, and attains a depth of over a mile. The Grand Canyon is known for its visually overwhelming size and its intricate and colorful landscape.
+          </p>
+           <button type="button" class="btn btn-dark">Learn More</button>
+         </div>
+         <div class="col-12 col-md-6">
+           <img src="images/grandc.png" class="img-fluid mx-auto d-block component">
+       </div>
+        </div>
+       </div></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div><!---->
+        
+    </section>
+    <!--end of offers-->
+    
+    <script src="bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
